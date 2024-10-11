@@ -4,10 +4,7 @@ public class RequestCoin {
 	private Double amount;
 	private String originalCurrency;
 	private String targetCurrency;
-	
-	public RequestCoin() {
-		super();
-	}
+	private String cuppon;
 	public Double getAmount() {
 		return amount;
 	}
@@ -25,6 +22,12 @@ public class RequestCoin {
 	}
 	public void setTargetCurrency(String targetCurrency) {
 		this.targetCurrency = targetCurrency;
+	}
+	public String getCuppon() {
+		return cuppon;
+	}
+	public void setCuppon(String cuppon) {
+		this.cuppon = cuppon;
 	}
 	
 	

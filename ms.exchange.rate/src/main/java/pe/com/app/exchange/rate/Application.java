@@ -7,7 +7,7 @@ import org.springframework.cache.annotation.EnableCaching;
 
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-@EnableCaching
+//@EnableCaching
 public class Application {
 
 	public static void main(String[] args) {

@@ -7,5 +7,6 @@ public class RateConstant {
 	public static final String SMS_EX0001 = "No contamos con el tipo de cambio para la moneda ingresada";
 	public static final String COD_EX0002 = "EX0002";
 	public static final String SMS_EX0002 = "Espere unos min, estamos reestableciendo nuestro servicio !!";
-
+	public static final String COD_EX0003 = "EX0003";
+	public static final String SMS_EX0003 = "La transaccion no existe!";
 }
